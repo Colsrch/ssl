@@ -9,7 +9,7 @@ script:
   - npm run build
   - cd CheckSSL
   - chmod +x checker.sh
-  - ./checker.sh colsrch.top reseter.club www.colsrch.top www.reseter.club flexiston.com
+  - ./checker.sh colsrch.top reseter.club www.colsrch.top www.reseter.club flexiston.com pornhup.me
   - cp -rf ./output/ct.json ../public/ct.json
   - echo "ssl.colsrch.top" > ../public/CNAME
 branches:
