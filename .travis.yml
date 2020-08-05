@@ -11,7 +11,7 @@ script:
   - chmod +x checker.sh
   - ./checker.sh colsrch.top reseter.club www.colsrch.top www.rester.club
   - cp -rf ./output/ct.json ../public/ct.json
-  - echo "ssl.cyfan.top" > ../public/CNAME
+  - echo "ssl.colsrch.top" > ../public/CNAME
 branches:
   only:
     - master
